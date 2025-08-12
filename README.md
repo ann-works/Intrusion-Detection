@@ -6,8 +6,6 @@ This project implements a real-time network intrusion detection system using a s
 
 The final model is deployed in an interactive **Streamlit dashboard** that simulates a live network feed, providing real-time alerts and classifications.
 
----
-
 ##  Key Features
 
 - **In-Depth EDA:** Comprehensive exploratory data analysis to understand the characteristics of different traffic types.
