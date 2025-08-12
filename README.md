@@ -14,8 +14,6 @@ The final model is deployed in an interactive **Streamlit dashboard** that simul
 - **Real-Time Simulation:** An interactive Streamlit dashboard to simulate live log monitoring and visualize the model's predictions as they happen.
 - **Dynamic Controls:** The dashboard allows users to adjust the ratio of intrusion events in the simulation for effective demonstration.
 
----
-
 ##  Technologies Used
 
 - **Python:** Core programming language.
