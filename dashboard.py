@@ -17,8 +17,7 @@ st.set_page_config(
 def load_artifacts():
     """Loads the trained model, preprocessor, and label encoder."""
     try:
-        # MODIFICATION: Updated file paths to look inside the 'models' folder
-        model = load_model('models/lstm_model_multiclass_balanced.keras') 
+        model = load_model('models/lstm_model_multiclass.keras') 
         preprocessor = joblib.load('models/preprocessor_multiclass_balanced.joblib')
         label_encoder = joblib.load('models/label_encoder_multiclass.joblib')
         return model, preprocessor, label_encoder
