@@ -18,7 +18,7 @@ def load_artifacts():
     """Loads the trained model, preprocessor, and label encoder."""
     try:
         model = load_model('models/lstm_model_multiclass.keras') 
-        preprocessor = joblib.load('models/preprocessor_multiclass_balanced.joblib')
+        preprocessor = joblib.load('models/preprocessor_multiclass.joblib')
         label_encoder = joblib.load('models/label_encoder_multiclass.joblib')
         return model, preprocessor, label_encoder
     except Exception as e:
