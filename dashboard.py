@@ -33,7 +33,7 @@ model, preprocessor, label_encoder = load_artifacts()
 def load_simulation_data():
     """Loads and prepares the full dataset for the simulation feed."""
     # MODIFICATION: Updated file path to look inside the 'data' folder
-    df = pd.read_csv('data/Time-Series_Network_logs.csv')
+    df = pd.read_csv('Time-Series_Network_logs.csv')
     df['Timestamp'] = pd.to_datetime(df['Timestamp'])
     df = df.sort_values('Timestamp').reset_index(drop=True)
     return df
